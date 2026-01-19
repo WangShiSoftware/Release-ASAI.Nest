@@ -1,22 +1,23 @@
 2026.1.18
 
-[languageCode:ru_RU]  
+[languageCode:en_US] 
 
 version: 2026.1.18
-1. Новый алгоритм форматирования с высоким коэффициентом использования WSNest - 6
-- Интеллектуальный набор алгоритмов шестого поколения, использование которых значительно лучше, чем у предыдущего поколения
-- Значительное увеличение использования листов, чтобы помочь пользователям сэкономить на материалах
-- Бесперебойное обновление старых и новых алгоритмов, использование обновленного программного обеспечения
-- Максимальное количество оптимизации базовой версии увеличено с 5000 до 8000
-2. Упрощение алгоритмического модуля с сохранением только высокоскоростного алгоритма WSNest2 и высокопроизводительного алгоритма WSNest6 для устранения зависимости от среды работы jre и уменьшения размера после декомпрессии программного обеспечения на 165 МБ
-3. Дальнейшее совершенствование вывода файлов в формате [Starhui Automatic Member (VU)] для поддержки вращающихся меток
-4. Добавлены новые переводы на узбекский и украинский языки, улучшен многоязычный перевод на несколько интерфейсов
-5. Прочее
-(1) Экспорт форматов изображений из BMP в PNG, меньший размер файла
-(2) Улучшение многопартийной оптимизации графика обратного вызова
-(3) Исправление проблемы, заключающейся в том, что расчет положения метки не соответствует ожиданиям при выборе « карты расположения плиты для обновления в режиме реального времени» при выполнении операции « вторичной оптимизации» только на большой плате
-(4) Исправление неполадок с набором строк типа источника данных, не соответствующих ожиданиям
-(5) Дальнейшее совершенствование логики « генерации NC при наличии радиуса дуги менее равного радиусу инструмента в контуре фрезерования свободного мешка»
-(6) Файл "Описание номера ножа MPR" поддерживает многоязычный выход
-(7) Оптимизация других деталей. Это...
+1. New WSNest-6 high-utilization nesting algorithm
+   - Sixth-generation intelligent nesting algorithm with significantly higher utilization than previous versions
+   - Substantially improved panel utilization, helping users save material costs
+   - Seamless upgrade from previous algorithms, available immediately after software update
+   - Maximum optimization quantity for Basic Edition increased from 5,000 to 8,000
+2. Simplified algorithm modules, retaining only high-speed algorithm WSNest-2 and high-utilization algorithm WSNest-6, removed JRE runtime dependency, reducing software size by 165MB after extraction
+3. Further improved [Excitech Auto Labeling (VU)] format file output to support rotated labels
+4. Added Uzbek translation, Ukrainian translation and improved multi-language translations for multiple interfaces
+5. Others
+(1) Changed exported image format from BMP to PNG for smaller file sizes
+(2) Improved callback progress display for multi-batch optimization
+(3) Fixed the issue where label position calculation did not meet expectations when performing "Post-Processing Optimization" on a single large panel while "Real-time update panel position" is enabled
+(4) Fixed the issue where data source type collection strings did not match expectations
+(5) Further improved the logic for "NC generation when arc radius is less than or equal to tool radius in free-form pocket milling contour paths"
+(6) "MPR Tool Number Description" file now supports multi-language output
+(7) Optimized other details ...
+
 
