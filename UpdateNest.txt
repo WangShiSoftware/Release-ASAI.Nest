@@ -1,8 +1,8 @@
-2027.1.18
+2026.1.18
 
 [languageCode:en_US] 
 
-version: 2027.1.18
+version: 2026.1.18
 1. New WSNest-6 high-utilization nesting algorithm
    - Sixth-generation intelligent nesting algorithm with significantly higher utilization than previous versions
    - Substantially improved panel utilization, helping users save material costs
@@ -19,6 +19,7 @@ version: 2027.1.18
 (5) Further improved the logic for "NC generation when arc radius is less than or equal to tool radius in free-form pocket milling contour paths"
 (6) "MPR Tool Number Description" file now supports multi-language output
 (7) Optimized other details ...
+
 
 
 
